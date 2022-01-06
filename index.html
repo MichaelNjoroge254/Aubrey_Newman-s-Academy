@@ -1,20 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aubrey Newman's Academy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
 </head>
+
 <body>
     <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>  
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">LESSONS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+    <div class="text-box">
+        <h1>Shining For Excellence</h1>
+        <p>We are pride in being the best academic institution in the region,<br> offering CBC and 8-4-4 while inspire and give hope...<br> indeed we are the Island of Hope</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+
+    </div>
 
 
-        
     </section>
+<!------- Lessons  ------->
+
+<section class="lessons">
+    <h1>lessons We Offer</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sequi nam aliquid minus ab aut corrupti adipisci voluptates, vero ad molestiae dolores quis in accusantium, excepturi eum iste? Cupiditate, officiis.</p>
+
+    <div class="row">
+        <div class="lesson-col">
+            <h3>French</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla amet error? Excepturi enim perferendis deleniti rem. Reiciendis, est porro, sunt molestiae asperiores ducimus aliquam id officiis consectetur libero in?</p>
+        </div>
+        <div class="lesson-col">
+            <h3>Computer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla amet error? Excepturi enim perferendis deleniti rem. Reiciendis, est porro, sunt molestiae asperiores ducimus aliquam id officiis consectetur libero in?</p>
+        </div>
+        <div class="lesson-col">
+            <h3>Programming</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla amet error? Excepturi enim perferendis deleniti rem. Reiciendis, est porro, sunt molestiae asperiores ducimus aliquam id officiis consectetur libero in?</p>
+        </div>
+    </div>
+</section>
+
+<!-- SCHOOL -->
+
+<section class="school">
+    <h1>Our Entire School</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, asperiores.</p>
+
+    <div class="row">
+        <div class="school-col">
+            <img src="images/climp.jpg" alt="">
+            <div class="layer">
+                <h3>KIKUYU</h3>
+            </div>
+        </div>
+        <div class="school-col">
+            <img src="images/playfield.jpeg" alt="">
+            <div class="layer">
+                <h3>KIKUYU</h3>
+            </div>
+        </div>
+        <div class="school-col">
+            <img src="images/flapost.jpg" alt="">
+            <div class="layer">
+                <h3>KIKUYU</h3>
+            </div>
+        </div>
+    </div>
+</section>
 
 
+<!-- ----- FACILITIES ----- -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</section>
+
+
+
+<!-- -----Javascript for Toggle Menu----- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
 
 </body>
+
 </html>
