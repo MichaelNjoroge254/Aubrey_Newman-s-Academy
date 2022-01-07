@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:url(images/flapost.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/flapost.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -112,6 +112,9 @@ nav .fa{
     }    
     .nav-links ul{
         padding: 30px;
+    }
+    nav img{
+        width: 80px;
     }
 }
 
@@ -279,4 +282,110 @@ h3{
         margin-left: 0px;
         margin-right: 15px;     
     }
+}
+
+/* ----- Call to action ----- */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/library7.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+
+/* ......sliding images styling ------ */
+
+
+/* body{
+    display: block; 
+    justify-content: center;
+  }
+  .slide{
+      display: flex;
+  } */
+  /* .maincontainer{
+border:2px solid red; 
+      height:500px;
+      width:1250px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  /* .imgcontainer{
+opacity:0;
+      height:144px;
+      width:256px;
+      border:1px solid blue;
+      background-size: cover; 
+    position: fixed;
+    background-color: brown;
+   overflow: hidden;
+  
+  } */
+  /* .image1{background-image: url(https://www.nature.com/polopoly_fs/7.32494.1449833617!/image/Ghost-Nebula.jpg_gen/derivatives/landscape_630/Ghost-Nebula.jpg) ; }
+  .image2{background-image: url(https://www.nature.com/polopoly_fs/7.32500.1449833718!/image/nh-mp1_029918_destripe_large_bright.jpg_gen/derivatives/landscape_630/nh-mp1_029918_destripe_large_bright.jpg) ; }
+  .image3{background-image: url(https://www.nature.com/polopoly_fs/7.32493.1449833581!/image/Drought-in-California.jpg_gen/derivatives/landscape_630/Drought-in-California.jpg) ; }
+  .image4{background-image: url(https://www.nature.com/polopoly_fs/7.32713.1450358191!/image/ON_toucan_Todd-Rorsgren.jpg_gen/derivatives/landscape_630/ON_toucan_Todd-Rorsgren.jpg) ; }
+  .image5{background-image: url(https://www.nature.com/polopoly_fs/7.32714.1450351090!/image/ON_spiders_Laszlo-Novak.jpg_gen/derivatives/landscape_630/ON_spiders_Laszlo-Novak.jpg) ; }
+  .image6{background-image: url(https://www.nature.com/polopoly_fs/7.32716.1450351151!/image/ON_Seal_Michael-Becker.jpg_gen/derivatives/landscape_630/ON_Seal_Michael-Becker.jpg) ; }
+  button{
+    height: 500px;
+  }   */
+
+/* ----- FOOTER ----- */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: #f44336;
+}
+
+
+
+/* ---------- ABOUT US PAGE --------- */
+
+.sub-header{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/library.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
 }
