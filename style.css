@@ -705,8 +705,10 @@ h3{
         background: #f44336;
     }
     .slide img{
-        width: 500px;
+        width: 400px;
         height: 500px;
+        margin-left: 15px;
+        margin-right: 15px; 
     }
     
 
