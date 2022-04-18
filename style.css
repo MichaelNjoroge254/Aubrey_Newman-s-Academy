@@ -341,7 +341,7 @@ h3{
 .acti{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/k4.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/birthday2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -677,15 +677,15 @@ h3{
     background: #f44336;
     color: #fff;
     padding: 7px 0;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 .graduate-right div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #555;
-    padding: 8px;
+    color: rgb(20, 87, 212);
+    padding: 12px;
     box-sizing: border-box;
 }
 
@@ -720,7 +720,7 @@ h3{
 .cont{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/k4.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/birthday2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
