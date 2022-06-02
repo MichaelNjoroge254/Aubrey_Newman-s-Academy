@@ -66,7 +66,9 @@
 }
 .logo img{
     width: 150px;
+    height: 130px;
     cursor: pointer;
+    border-radius: 10%;
 }
 .menu-icons{
     flex: 1;
@@ -229,6 +231,7 @@ nav .fa{
     }
     .logo img{
         width: 80px;
+        height: 65px;
         cursor: pointer;
     }
 }
